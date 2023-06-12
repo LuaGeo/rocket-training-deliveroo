@@ -35,8 +35,8 @@ function App() {
   }, []);
 
   const handleAddToCart = (meal) => {
-    const cartCopy = [...cart];
-    const mealPresent = cartCopy.find((elem) => elem.id === meal.id);
+    // const cartCopy = [...cart];
+    const mealPresent = cart.find((elem) => elem.id === meal.id);
     // if (mealPresent) mealPresent.quantity++;
     // else cartCopy.push({ ...meal, quantity: 1 });
     // setCart(cartCopy);
